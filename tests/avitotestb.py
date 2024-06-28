@@ -10,7 +10,7 @@ browser.get('https://www.avito.ru/avito-care/eco-impact')
 wait = WebDriverWait(browser, 20)  # Увеличим время ожидания до 20 секунд
 
 # Ваши данные для входа
-login_text = "+7 84"
+login_text = "+7 4"
 password_text = "is"
 
 # Находим элементы для ввода логина и пароля, вводим данные и нажимаем кнопку "Войти"
