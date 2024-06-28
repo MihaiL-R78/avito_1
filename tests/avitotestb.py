@@ -11,7 +11,7 @@ wait = WebDriverWait(browser, 20)  # Увеличим время ожидани�
 
 # Ваши данные для входа
 login_text = "+7 4"
-password_text = "is"
+password_text = "is0"
 
 # Находим элементы для ввода логина и пароля, вводим данные и нажимаем кнопку "Войти"
 login_input = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div/div[3]/div/div/a')))
